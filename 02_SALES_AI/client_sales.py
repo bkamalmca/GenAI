@@ -25,11 +25,16 @@ chat_completion = client.chat.completions.create(
 
     🔹 **Top-Selling Products by sales total**:
         product_name
-        Curtains Set        3336957
-        Electric Shaver     2974543
-        Smartwatch Elite    2947770
-        Towel Set           2898202
-        Gaming Console Z    2838056
+        Curtains Set                3336957
+        Electric Shaver             2974543
+        Smartwatch Elite            2947770
+        Towel Set                   2898202
+        Gaming Console Z            2838056
+        Shoe Rack                   2786146
+        Electric Pressure Cooker    2625886
+        Wireless Gaming Mouse       2546440
+        Wall Clock                  2518685
+        Shampoo Herbal              2504838
 
             🔹 **Top Sales Categories**:
         category
@@ -59,12 +64,50 @@ chat_completion = client.chat.completions.create(
         2024-09-30    5202278
         2024-10-31    6578314
         2024-11-30    6628929
-        2024-12-31    7399560"""
+        2024-12-31    7399560
+        
+            🔹 **Top customers by Sales Total**
+        customer_name
+        Rohit Choudhary    2605304
+        Swati Das          2496217
+        Sneha Rao          2481199
+        Meena Gopal        2457278
+        Shruti Prasad      2442006
+        Neha Kapoor        2344035
+        Asha Pillai        2156002
+        Arjun Kumar        2133273
+        Rajiv Joshi        2022708
+        Rahul Sen          2002140
+
+            🔹 **Sales by Gender**
+       gender  total_amount
+    0  Female      41792097
+    1    Male      40656375
+
+    🔹 **Sales by Age group**
+      age_group  total_amount
+    0       <18             0
+    1     18-25       9211050
+    2     26-35      27622159
+    3     36-45      21712172
+    4     46-55      18065186
+    5     56-65       5837905
+    6       65+             0
+
+    🔹 **Sales by City**
+        city  total_amount
+    0     Chennai      17644819
+    1  Coimbatore      15144837
+    2     Madurai      16637754
+    3       Salem      16786763
+    4      Trichy      16234299
+        """
         },
+        
         # Set a user message for the assistant to respond to.
         {
             "role": "user",
-            "content": "Can you provide the summary of sales data",
+            "content": "Can you provide the any insights for senior executive? Any suggestions?",
         }
     ],
 
