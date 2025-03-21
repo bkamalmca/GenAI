@@ -52,4 +52,4 @@ if user_input:
         
     st.session_state.messages.append({"role": "assistant", "content": response.content})
 
-# streamlit run .\streamlit_test.py
+# streamlit run .\chatbot_groq_st.py
